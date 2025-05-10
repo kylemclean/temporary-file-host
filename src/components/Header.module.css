@@ -1,0 +1,9 @@
+.homeLink {
+  color: inherit;
+}
+
+.homeLink:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 0.25rem;
+}

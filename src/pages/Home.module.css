@@ -1,0 +1,19 @@
+.about {
+  margin-top: 1rem;
+}
+
+.uploadAnother {
+  display: block;
+  margin-top: 4rem;
+}
+
+.downloadUrl {
+  display: flex;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.downloadUrl input {
+  font-size: inherit;
+  flex-grow: 1;
+}

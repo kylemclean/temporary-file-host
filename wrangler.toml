@@ -1,0 +1,11 @@
+name = "temporary-file-host-worker"
+main = "worker/src/index.ts"
+compatibility_date = "2023-05-04"
+
+[triggers]
+crons = [ "0 * * * *" ]
+
+[env.local]
+d1_databases = [
+  { binding = "db", database_name = "temporary-file-host-local", database_id = "local" }
+]
